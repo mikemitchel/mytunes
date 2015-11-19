@@ -23,9 +23,5 @@ var songData = [
 ];
 
 var queueData = [
-  {
-    url: "data/Astrometrics_-_03_-_Get_Ready_For_The_Apocalypse.mp3",
-    title: "Get Ready for the Apocalypse",
-    artist: "Astrometrics",
-  }
+
 ];
