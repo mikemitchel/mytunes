@@ -11,8 +11,16 @@ var AppView = Backbone.View.extend({
       this.playerView.setSong(model.get('currentSong'));
     }, this);
 
+    // this.model.on('add', function(model) {
+    //   this.playerView.setSong(model.get('currentSong'));
+    // }, this);
+
+
+
 
   },
+
+
 
   render: function(){
     return this.$el.html([
@@ -23,3 +31,17 @@ var AppView = Backbone.View.extend({
   }
 
 });
+
+
+// a click in the library, sets the current song to that song
+// and enques it to the queue list
+// that AppView detects the change in current song, and calls
+// the setSong function from the player view, play begins
+// when play ends (current time matches end time of element)
+// then dequeue from the queue, and set current song to next
+// queue item
+
+
+// setTimeinter
+
+// setInterval(function() {if (mediaElement.currentTime < mediaElement.seekable.end(0)) {console.log('still playing')}}, 3000);

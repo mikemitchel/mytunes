@@ -22,6 +22,4 @@ var songData = [
   }
 ];
 
-var queueData = [
 
-];
